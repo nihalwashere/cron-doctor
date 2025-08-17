@@ -1,5 +1,5 @@
 {
-  "name": "cronx",
+  "name": "cron-doctor",
   "version": "0.0.1",
   "description": "Readable, safe cron jobs for humans. (Name reservation seed; full features coming soon.)",
   "type": "module",
@@ -9,7 +9,7 @@
     "./cli": "./cli.js"
   },
   "bin": {
-    "cronx": "./cli.js"
+    "cron-doctor": "./cli.js"
   },
   "keywords": [
     "cron",

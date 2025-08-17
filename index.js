@@ -1,5 +1,5 @@
 /**
- * cronx v0.0.1
+ * cron-doctor v0.0.1
  * Readable, safe cron jobs for humans.
  * This is a seed release to reserve the npm name. The public API below is stable,
  * and will expand in future minor versions.

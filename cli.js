@@ -9,12 +9,12 @@ function flag(name, fallback) {
 }
 
 function usage() {
-  console.log(`cronx (seed)
+  console.log(`cron-doctor (seed)
 Usage:
-  cronx humanize "<expr>" [--tz America/New_York]
-  cronx validate "<expr>" [--tz ZONE]
-  cronx next "<expr>" [--limit 5]
-  cronx normalize "<expr>" --to standard-5|standard-6|quartz-7
+  cron-doctor humanize "<expr>" [--tz America/New_York]
+  cron-doctor validate "<expr>" [--tz ZONE]
+  cron-doctor next "<expr>" [--limit 5]
+  cron-doctor normalize "<expr>" --to standard-5|standard-6|quartz-7
 `);
 }
 

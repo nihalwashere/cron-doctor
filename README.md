@@ -1,8 +1,8 @@
-# cronx
+# cron-doctor
 
 > 🕒 Readable, safe cron jobs for humans.
 
-This is the **seed release** to secure the `cronx` name on npm.  
+This is the **seed release** to secure the `cron-doctor` name on npm.  
 The initial API is minimal and will expand to include:
 
 - Explain any cron (plain English)
@@ -14,7 +14,7 @@ The initial API is minimal and will expand to include:
 ## Quick start
 
 ```bash
-npm i cronx
+npm i cron-doctor
 # or
-npx cronx humanize "0 */10 * * * *" --tz America/New_York
+npx cron-doctor humanize "0 */10 * * * *" --tz America/New_York
 ```
