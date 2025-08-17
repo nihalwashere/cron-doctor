@@ -1,0 +1,40 @@
+{
+  "name": "cronx",
+  "version": "0.0.1",
+  "description": "Readable, safe cron jobs for humans. (Name reservation seed; full features coming soon.)",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cli": "./cli.js"
+  },
+  "bin": {
+    "cronx": "./cli.js"
+  },
+  "keywords": [
+    "cron",
+    "crontab",
+    "scheduler",
+    "lint",
+    "humanize",
+    "dst",
+    "quartz"
+  ],
+  "author": {
+    "name": "Nihal Kaul",
+    "email": "nihal.codes@gmail.com",
+    "url": "https://nihalwashere.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/nihalwashere/cronx#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihalwashere/cronx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nihalwashere/cronx/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
